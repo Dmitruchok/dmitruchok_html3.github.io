@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 13.3px 'Open Sans', sans-serif;
+}
+
+/*HEDER*/
+
+.main-block {
+    width: 966px;
+    margin: 0 auto;
+    padding: 50px 50px 0 50px;
+    border-right: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+}
+
+.nav-menu {
+    margin-top: 40px;
+    background: rgba(68, 67, 67, .88);
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu a {
+    display: block;
+    padding: 15px 40px;
+    border-right: 1px solid rgb(90, 89, 89);
+    border-left: 1px solid rgb(90, 89, 89);
+    color: #fff;
+    font-size: 14.67px;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    border-right: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    background-color: rgb(68, 67, 67);
+}
+
+/*SECTION*/
+.clearfix {
+    margin-top: 40px;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.side-menu {
+    width: 240px;
+    float: left;
+    border: 1px solid #d3d3d3;
+}
+
+.side-menu li {
+    border-top: 1px solid #d3d3d3;
+    list-style-type: none;
+}
+
+.side-menu li:first-child {
+    border: 0;
+}
+
+.side-menu a {
+    display: block;
+    padding: 15px 30px 15px 10px;
+    color: #656363;
+    text-decoration: none;
+}
+
+.side-menu a:hover {
+    padding-left: 35px;
+    background-color: rgba(236, 236, 236, .78);
+}
+
+.right-section {
+    width: 678px;
+    float: right;
+}
+
+.right-section p {
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.picture-box {
+    padding: 40px 90px;
+    border: 1px solid #d3d3d3;
+}
+
+/*FOOTER*/
+
+.nav-foot {
+    margin-top: 60px;
+    background: #d3d3d3;
+}
+
+.nav-foot li {
+    display: inline-block;
+    padding: 15px 40px;
+}
+
+.nav-foot p {
+    margin-top: 14px;
+    margin-right: 17px;
+    float: right;
+    color: #000;
+}
+
+.nav-foot a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-foot a:hover {
+    text-decoration: underline;
+ }
